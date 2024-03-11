@@ -29,6 +29,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "dapr": {
+      "commandName": "Executable",
+      "workingDirectory": "$(ProjectDir)",
+      "executablePath": "dapr.exe",
+      "commandLineArgs": "run --app-id InventoryService --resources-path ../dapr/components/ --app-port 5022 --dapr-http-port 3502 -- dotnet run --project .",
+      "launchBrowser": true,
+      "launchUrl": "swagger"
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

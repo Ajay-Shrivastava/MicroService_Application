@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "CheckoutService\\CheckoutService.csproj",
+        "Action": "Start",
+        "DebugTarget": "dapr"
+      },
+      {
+        "Name": "InventoryService\\InventoryService.csproj",
+        "Action": "Start",
+        "DebugTarget": "dapr"
+      },
+      {
+        "Name": "ProductService\\ProductService.csproj",
+        "Action": "Start",
+        "DebugTarget": "dapr"
+      },
+      {
+        "Name": "OrderService\\OrderService.csproj",
+        "Action": "Start",
+        "DebugTarget": "dapr"
+      }
+    ]
+  }
+]

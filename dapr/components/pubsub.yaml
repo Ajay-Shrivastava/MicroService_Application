@@ -1,0 +1,10 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsub
+spec:
+  type: pubsub.azure.servicebus.topics
+  version: v1
+  metadata:
+  - name: connectionString
+    value: Endpoint=sb://pubsubservicebus.servicebus.windows.net/;SharedAccessKeyName=newPolicy;SharedAccessKey=IGQ0nlXMQ/mvJAsUKIKU+yTaQM1xtziY++ASbE8KEgA=;EntityPath=orderpublish
